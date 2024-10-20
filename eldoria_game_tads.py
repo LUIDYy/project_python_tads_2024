@@ -10,6 +10,9 @@ print("//////// Seja Bem Vindo Aventureiro//////")
 #Configurando o personagem
 nome = str(input('Digite o nome do aventureiro: '))
 
+print("teste para ver se ta funcionando")
+
+
 #mimik = baú surpresa
 #random = 0, 20
 
