@@ -5,6 +5,8 @@ import os
 from random import randint
 import math
 
+print("//////// Seja Bem Vindo Aventureiro//////")
+
 #Configurando o personagem
 #mimik = baú surpresa
 #random = 0, 20
