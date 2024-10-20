@@ -8,9 +8,11 @@ import math
 print("//////// Seja Bem Vindo Aventureiro//////")
 
 #Configurando o personagem
+nome = str(input('Digite o nome do aventureiro: '))
+
 #mimik = baú surpresa
 #random = 0, 20
-nome = str(input('Digite o nome do aventureiro: '))
+
 
 #jogador = vida, esquiva, ataque, ataque crítico, defesa
 jogador = [nome, , ,] #definir valores dos atributos
