@@ -14,7 +14,7 @@ nome = str(input('Digite o nome do aventureiro: '))
 classe=int(input("""Escolha Sua Classe :
                  [1]Guerreiro
                  [2]Arqueiro
-                 [3]Clerico"""))
+                 [3]Clerico\n"""))
 
 
 
