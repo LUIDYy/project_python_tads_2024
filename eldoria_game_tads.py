@@ -30,13 +30,21 @@ jogador = [nome,5,0,3,0,1 ]
 
 print('------STAUTUS------')
       
-Vida =5             
-Equiva =0             
-Ataque =3
-Defesa =0            
-Ataque_critico =1 
+vida =5             
+esquiva =0             
+ataque =3
+defesa =0            
+ataque_critico =1 
 if classe ==1:
-    print("")    
+    print("Voce escolheu a opcao Guerreiro") 
+    ataque+=2
+    defesa+=2
+    print(f"vida={vida}\n")
+    print(f"esquiva={esquiva}\n")
+    print(f"ataque={ataque}\n")
+    print(f"defesa={defesa}\n")
+    print(f"ataque critico={ataque_critico}\n")
+       
       
       
 #Definição dos monstros -
