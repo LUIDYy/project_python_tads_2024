@@ -26,17 +26,19 @@ classe=int(input("""Escolha Sua Classe :
 jogador = [nome,5,0,3,0,1 ] 
 
 
-#ficha inicial 
+#//////////ficha inicial ///////////
 
 print('------STAUTUS------')
-#print(f"""
-     # jogador:{jogador[0]}
       
-      #Vida               {jogador[1]}
-      #Equiva             {jogador[2]}
-      #Ataque             {jogador[3]}
-      #Defesa             {jogador[4]}
-      #Ataque Critico     {jogador[5]}""")
+Vida =5             
+Equiva =0             
+Ataque =3
+Defesa =0            
+Ataque_critico =1 
+if classe ==1:
+    print("")    
+      
+      
 #Definição dos monstros -
 monstroF = ['Fácil', , ,] #definir valores dos atributos dos monstros
 monstroM = ['Médio', , ,]
