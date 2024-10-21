@@ -11,7 +11,7 @@ print("//////// Seja Bem Vindo Aventureiro//////")
 
 #Configurando o personagem
 nome = str(input('Digite o nome do aventureiro: '))
-
+class=int((input))
 
 
 
@@ -20,20 +20,20 @@ nome = str(input('Digite o nome do aventureiro: '))
 
 
 #jogador = vida, esquiva, ataque, ataque crítico, defesa
-jogador = [nome,5,0,3,0,1 ] #definir valores dos atributos
+jogador = [nome,5,0,3,0,1 ] 
 
 
 #ficha inicial 
 
 print('------STAUTUS------')
-print(f"""
-      jogador:{jogador[0]}
+#print(f"""
+     # jogador:{jogador[0]}
       
-      Vida               {jogador[1]}
-      Equiva             {jogador[2]}
-      Ataque             {jogador[3]}
-      Defesa             {jogador[4]}
-      Ataque Critico     {jogador[5]}""")
+      #Vida               {jogador[1]}
+      #Equiva             {jogador[2]}
+      #Ataque             {jogador[3]}
+      #Defesa             {jogador[4]}
+      #Ataque Critico     {jogador[5]}""")
 #Definição dos monstros -
 monstroF = ['Fácil', , ,] #definir valores dos atributos dos monstros
 monstroM = ['Médio', , ,]
